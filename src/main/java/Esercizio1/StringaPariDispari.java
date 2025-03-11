@@ -2,9 +2,6 @@ package Esercizio1;
 
 public class StringaPariDispari {
     public static boolean stringaPariDispari(String str) {
-        if (str == null) {
-            throw new IllegalArgumentException("La stringa non può essere null");
-        }
 
         if (str.length() % 2 == 0) {
             return true;
